@@ -1,11 +1,3 @@
-/* COLOR SYSTEM
-Bone #E6E0D6
-Gold #C28D39
-Purple #5A315E
-Merlot #4B1E23
-Midnight #1C2430
-Graphite #121212
-*/
 
 * {
   box-sizing: border-box;
@@ -25,9 +17,6 @@ body {
 p {
   margin-top: 0;
 }
-
-
-/* COVER */
 
 .cover {
   min-height: 100vh;
@@ -85,9 +74,6 @@ p {
   letter-spacing: 2px;
 }
 
-
-/* STORY SECTIONS */
-
 .story-section {
   position: relative;
   min-height: 100vh;
@@ -131,18 +117,10 @@ p {
   margin-bottom: 32px;
 }
 
-
-/* IMAGE PLACEHOLDERS */
-
 .image-placeholder {
-  background: #A7A39C;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 250px;
-  color: #E6E0D6;
-  font-size: 10px;
-  letter-spacing: 1.5px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .image-large {
@@ -185,9 +163,6 @@ p {
   letter-spacing: 1.5px;
 }
 
-
-/* 01 */
-
 .opening {
   background: #E6E0D6;
 }
@@ -215,9 +190,6 @@ p {
   color: #121212;
 }
 
-
-/* 02 */
-
 .seductive {
   background: #DED6CC;
 }
@@ -240,9 +212,6 @@ blockquote em {
   margin-left: 15%;
   color: #C28D39;
 }
-
-
-/* 03 */
 
 .masked {
   background: #D7CFC5;
@@ -269,9 +238,6 @@ blockquote em {
 .arrow {
   color: #C28D39;
 }
-
-
-/* 04 */
 
 .restless {
   min-height: 1800px;
@@ -326,9 +292,6 @@ blockquote em {
   color: #C28D39;
 }
 
-
-/* 05 */
-
 .anonymous {
   min-height: 1500px;
   background: #1C2430;
@@ -363,9 +326,6 @@ blockquote em {
   font-style: italic;
   color: #A7A39C;
 }
-
-
-/* 06 */
 
 .sinister {
   min-height: 1700px;
@@ -415,9 +375,6 @@ blockquote em {
   letter-spacing: 3.5px;
 }
 
-
-/* 07 */
-
 .silent {
   min-height: 1300px;
   padding-top: 250px;
@@ -428,9 +385,6 @@ blockquote em {
 .final-paragraph {
   margin-top: 250px;
 }
-
-
-/* FINAL SCREEN */
 
 .final-screen {
   min-height: 100vh;
