@@ -443,4 +443,300 @@ blockquote em {
   font-size: 9px;
   letter-spacing: 2px;
   color: #77777C;
+  margin-top: 80px
+}
+
+.next-stories {
+  background: #09090A;
+  color: #F2EFE8;
+  padding: 100px 10%;
+}
+
+.next-label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #C68E92;
+}
+
+.next-stories h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 70px;
+  font-weight: 400;
+  margin: 30px 0 80px;
+}
+
+.story-links a {
+  display: block;
+  position: relative;
+  padding: 35px 0;
+  border-top: 1px solid #4B1E23;
+  color: #F2EFE8;
+  text-decoration: none;
+}
+
+.story-links a span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #C28D39;
+}
+
+.story-links a p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  margin: 15px 40px 0 0;
+}
+
+.story-links a .next-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.story-links a:hover p {
+  color: #C28D39;
+}
+
+@media (max-width: 600px) {
+  .next-stories {
+    padding: 70px 7%;
+  }
+
+  .next-stories h2 {
+    font-size: 45px;
+  }
+
+  .story-links a p {
+    font-size: 26px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+
+  .cover {
+    padding: 40px;
+  }
+
+  .cover h1 {
+    font-size: 90px;
+  }
+
+  .story-section {
+    padding: 100px 50px;
+  }
+
+  .story-section h2 {
+    font-size: 65px;
+  }
+
+  .display-words {
+    font-size: 75px;
+  }
+
+  .identity {
+    font-size: 65px;
+  }
+
+  .wild-title span {
+    font-size: 100px;
+  }
+
+  .wild-title em {
+    font-size: 70px;
+  }
+
+  .reveal h2 {
+    font-size: 100px;
+  }
+
+  .question h3 {
+    font-size: 70px;
+  }
+
+  .final-message h2 {
+    font-size: 95px;
+  }
+
+  .final-message p {
+    font-size: 85px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .cover {
+    padding: 25px;
+  }
+
+  .metadata {
+    font-size: 8px;
+    gap: 15px;
+  }
+
+  .cover-title {
+    max-width: 100%;
+  }
+
+  .cover h1 {
+    font-size: 58px;
+  }
+
+  .author {
+    font-size: 19px;
+  }
+
+  .story-section {
+    padding: 80px 25px;
+    min-height: auto;
+  }
+
+  .section-heading {
+    margin-bottom: 50px;
+  }
+
+  .story-section h2 {
+    font-size: 48px;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .story-text {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .offset-text {
+    margin-left: auto;
+  }
+
+  .image-large,
+  .image-small,
+  .portrait,
+  .image-wide,
+  .image-offset {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 450px;
+    margin: 60px auto;
+  }
+
+  .image-placeholder {
+    object-fit: cover;
+  }
+
+  .image-caption {
+    width: 100%;
+    max-width: 100%;
+    margin: 15px auto 60px;
+  }
+
+  .display-words {
+    width: 100%;
+    font-size: 50px;
+    margin-top: 80px;
+  }
+
+  .display-words span:nth-child(2) {
+    margin-left: 10%;
+  }
+
+  .display-words span:nth-child(3) {
+    margin-left: 20%;
+  }
+
+  blockquote {
+    width: 100%;
+    font-size: 45px;
+    margin: 80px auto;
+  }
+
+  .identity {
+    width: 100%;
+    font-size: 35px;
+    margin: 100px auto;
+    gap: 10px;
+  }
+
+  .restless,
+  .anonymous,
+  .sinister,
+  .silent {
+    min-height: auto;
+  }
+
+  .wild-title span {
+    font-size: 65px;
+    margin-left: 0;
+  }
+
+  .wild-title em {
+    font-size: 48px;
+    margin-left: 15%;
+  }
+
+  .chaos-word {
+    font-size: 65px;
+  }
+
+  .word-one {
+    margin-left: 0;
+  }
+
+  .word-two {
+    margin-left: 10%;
+  }
+
+  .anonymous .story-text {
+    margin-bottom: 120px;
+  }
+
+  .reveal h2 {
+    font-size: 65px;
+  }
+
+  .mistake {
+    margin-top: 100px;
+    font-size: 35px;
+  }
+
+  .question {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .question h3 {
+    font-size: 55px;
+  }
+
+  .silent {
+    padding-top: 120px;
+  }
+
+  .final-paragraph {
+    margin-top: 100px;
+  }
+
+  .final-screen {
+    padding: 70px 25px 40px;
+  }
+
+  .final-message h2 {
+    font-size: 60px;
+  }
+
+  .final-message p {
+    font-size: 55px;
+  }
+
+  .credits {
+    font-size: 8px;
+  }
+
 }
